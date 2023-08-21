@@ -1,0 +1,6969 @@
+fileFormatVersion: 2
+guid: b3018da000b57154f960e645fdf8c2f9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: decorative_obj_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51cb7243558d0d347807cdf4b6c0bcf5
+      internalID: -621923012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d7d01fcaf7a8641a4545dc7691a722
+      internalID: -1833452026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2160b61d76633774c8186747dfaa43ca
+      internalID: 569335708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab644f6c1bfaf6e47aa32c939d009267
+      internalID: -1207814631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa6b4e8f6b6ebc4f80416d4a75de4da
+      internalID: -1715221572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf242d8d48ae854aa20395f77ec0969
+      internalID: -1843205189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_6
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b5cdc46a1a4b447a817c52c095de66
+      internalID: -856681554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_7
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1803e6bee599b9499b5f985568f13f6
+      internalID: 443067380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597a8a3966f8392408ccc0ff54c5210b
+      internalID: -1550883254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592143491e5f45449b0ad6efdb131b13
+      internalID: 592031176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_10
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d67759c1d1a774c9a17bbfba2d18f0
+      internalID: 2025613026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_11
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3882f84ae305f4fadb3589e6a01ee7
+      internalID: -1110626006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_12
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb683161145883d41a759526a32a568f
+      internalID: -1656164120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_13
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cbbbb94472ae25469f05b5ad4be6749
+      internalID: -1002145412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_14
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ba7d5884b1f9c45a333ef88286d4a4
+      internalID: 171661109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_15
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c25dff2c6ad9e49bbc5c1f502ad0ff
+      internalID: 1378508576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_16
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6e82aeb9b351c46ac6ca1dd51e5d7a
+      internalID: -1092515819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_17
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6626d34cfbb1cd84d893de32cbd3573c
+      internalID: 1523425196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_18
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6adb33fa6a8c0e468273d90970b43c3
+      internalID: -1911872012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_19
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 544
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0c07ae8fbda264e8a7787819a37579
+      internalID: 1242727643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33de2f5cd9f09af4d8e046f1ad872198
+      internalID: 1371478041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_21
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bbba6e4a7ebe2b4faaadaa924dbdf20
+      internalID: -338599599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bdb43038131884884830eb876b384c
+      internalID: -47433481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_23
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3a0cbcad7428d4b9690ad41431c73b
+      internalID: -917517324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_24
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa71d98876955f44fa693ccb40c3582a
+      internalID: -1898497710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7ed4756c3f07644a49a58035215a38
+      internalID: 1309294243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3571549c940dd6241992f8709e145b9a
+      internalID: -557849502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_27
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d2ed351fcb62f4bbb6e35b378da5b4
+      internalID: -1741966085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_28
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f209f003a17ac45936227f33d19751
+      internalID: 1668434355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_29
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef4f77086f5e9c4190980bb9a38b644
+      internalID: -182153219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_30
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359fdad6fa71d82439edc27173eedb16
+      internalID: 705767448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_31
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708f6570f3795c24d8e9bb80a3dea596
+      internalID: 282931199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_32
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e381bc611d1c94e82eac646c2ccb4b
+      internalID: 655852696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_33
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa2a8989ba6c7a459ee5cd4d1c30b02
+      internalID: -914429804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_34
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba8ebab122aa3b40b454bd88ccb167a
+      internalID: -342270044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_35
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235473aac4e33f84b9fd8aa6aa7f97e9
+      internalID: -247397189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_36
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c1e88eecb71f047875205e8eb494fc
+      internalID: -824887373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_37
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe907c51802280e47a23f6396989aa87
+      internalID: -2052705666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_38
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d5946c8a4b9784b91a22aae1dd28db
+      internalID: 1308928859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_39
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fe6e9356801574db1aefb96ca64b7a
+      internalID: -214685851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_40
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c857ad4356344c64ebd9ee1dc6258717
+      internalID: -775839565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_41
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ee38f812a3ae14fbdee5f84b2060cf
+      internalID: 230922225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_42
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208f0cfe7f3a10248af58d54fb503a60
+      internalID: 2061332114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_43
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576c17c3560ad1344ab1d9ac765fb4a8
+      internalID: -896342969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_44
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 512
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e378292c3e0024e9f2270c119da96a
+      internalID: 1651322561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b04744655ea9da4aa79f8a245b4f492
+      internalID: -1273099032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_46
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36793d4de1c9228488a0a7401a5629a1
+      internalID: 1459422536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_47
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5de19d133c044e84696f206140e3afe2
+      internalID: 159466696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_48
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8263b6353c7264c85a58dd63140dfe
+      internalID: -2044344369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_49
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf37f5cbfe3c2b4e8e1695f4b9e1be9
+      internalID: 130302576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_50
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aa51982c42bb3428c573bceb0a4349
+      internalID: -1803707492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 139aed6f2462de04a81d8c6859d89912
+      internalID: 752047216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_52
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e39ddce3ef5684d9f97496c93dbbd6
+      internalID: 1042164912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_53
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a344e01aadca743b3a9c199a52940d
+      internalID: -1718118348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_54
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7c5e9b392ebab41953159bc4dd3aa8
+      internalID: -908494095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_55
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a919aa7e5517cc442a8eee77283f25b6
+      internalID: -878820697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_56
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541ed38566a1cb840b4e4bb0fcce6ec1
+      internalID: 134211264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_57
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30ee07d3290c2e4e9d619e4f55c13e9
+      internalID: -776340523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_58
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d11733eb0d9754ab5793cd90ece665
+      internalID: 1791418640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_59
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e65a05595d42ef408fa183feb985042
+      internalID: -137210977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_60
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c585afc47b6b24e825ac59b9cc8400
+      internalID: 1873377613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_61
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f9f34a55a2a1f488c41c969e15549d
+      internalID: -1571368221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_62
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471e656f9d78cea4ea194e1b0907c502
+      internalID: -1433760293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_63
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d9ce905c8840548abc7a08a4d5955b
+      internalID: 1960281928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_64
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3ed54641643e044ac41f060e339794
+      internalID: 485110520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_65
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009b401398d25304cb34ebca1550beb1
+      internalID: -934842396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_66
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4331a69bb90843543a8becbafcbaacf9
+      internalID: -313678049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_67
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06259e76087935449b23d696a566e263
+      internalID: 1132859231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_68
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f9d524726d61e48a43f5e51ad3aba8
+      internalID: -1244200938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_69
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c152a9ba8a4f34bba02bff2d780807
+      internalID: 1933137401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_70
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 480
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15cd4b1cdaa2db4bb025a19a84e63b6
+      internalID: -2012324065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b2b8b36392c2041bac8aa7de3ddbcc
+      internalID: 1917770476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_72
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6825e15d7e505c4790b0aede6044e68
+      internalID: -1176618762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_73
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b437f52338f6ae4190e1cdefa21b620
+      internalID: 912215505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9521d83461628f4c8d7c11a5f2b1bec
+      internalID: 552046591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_75
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bc03aac5b365c4e80a5e9233fa45bb
+      internalID: 1457776745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_76
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a671cd71af1164a80123ccf4a8bbfb
+      internalID: 2114654708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_77
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec4dfa85061016459ddbcfcc5d0ad82
+      internalID: 979684497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_78
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6730bbab310bc4d81d4508f15ae9da
+      internalID: -1234716581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_79
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd2b759344d13a44b31f6fbd1a837c4
+      internalID: -567732227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_80
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d506e4dbbcaf5d42848f3b94df59baa
+      internalID: 1132954601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_81
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f1f26f1a6e64944977087ab8642fd4
+      internalID: -640545790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_82
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb0f20caf227f544ac04785e8b58fd5
+      internalID: -2105899454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_83
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f11d8cdbfa0b2d4e92946101022451c
+      internalID: -2129987475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_84
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d164e1e4b1b34428b154097aba723b
+      internalID: -40433872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_85
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df12a55e8585764ca9221b5dc338a4c
+      internalID: 1884577775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_86
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a004987ca3a7c45a9d81b4fd5085ff
+      internalID: 196476189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_87
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10b7f2ea67f3724e8546d34a8dcb94a
+      internalID: 1491379274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_88
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72546c062a56c1d4781de12aef96de0f
+      internalID: 1831313892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_89
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb80f052704b7847b0fb5fe0ecd7b31
+      internalID: 1684693061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_90
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fdf7f6cc6e58c41932ff432f104ea9
+      internalID: 496947941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_91
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b319e239fd9065c4981f72a8abdb0180
+      internalID: -1206024273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_92
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f669d06620449649b2dcc4657a820df
+      internalID: -250698126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_93
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 448
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de68d8e4f66e40648a07b164319775ef
+      internalID: -209381027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_94
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8cf51904be5ac640a9d7f16b3a77a87
+      internalID: 193730792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_95
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ec333735ec5a94abd9a1a502660efe
+      internalID: -347311919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779dd26e3cd5b04419f781baa2260a93
+      internalID: 1317841487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_97
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf547bcd5397fa84494e5cdc21501234
+      internalID: 864627567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_98
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7c34825800104a8c42b246a329944
+      internalID: -1810060475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_99
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba67e281042f5ba4b8ca6a9971845f77
+      internalID: 1425230239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_100
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1d9540468ff0748af3e2043488733b
+      internalID: -160964192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_101
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75b70017d5c43d4ca094a3877d0356d
+      internalID: -1024207579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_102
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79327fbd15012544a928b0e2af51f61
+      internalID: 1863946418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_103
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55d1b519dc362c4a8902abb2dbbd04b
+      internalID: 1410161559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_104
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a2c6cfd89d98e4b92b5f70a748be6d
+      internalID: -1131079375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_105
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2685ba9a129a1cd49be1c2f1f22f107e
+      internalID: -1276575807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_106
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542978fb84d422b42be32be5d00cf068
+      internalID: 159562838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_107
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907f1fa454945b4469f5668d7248ac3b
+      internalID: -364745719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_108
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b92a29c731ee9240876480cb059f7ad
+      internalID: -11846615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_109
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a7e5c5bc3c8324cba82d8328d60a62
+      internalID: -817535626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_110
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 461337e738c0a9648898fa5f01994b1d
+      internalID: -1789940009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_111
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c00246d6a7753f4099002d28b24b114
+      internalID: 1845360897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_112
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d277a1af3366ee54d8de522c6e292a02
+      internalID: 1491341141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_113
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f4a83f2febb0d4e9463e358ccf74ea
+      internalID: 619181876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_114
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ec93d923e663246baf62acb25bb1fe
+      internalID: -1994643460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_115
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 416
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acd805ac5bf512438e6edc0e9c45ab5
+      internalID: 988843680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_116
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db465c309ffe9b640bed83c776f1b1f9
+      internalID: -1682480393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_117
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b048d2171e7bd745a57335a34cec35e
+      internalID: -1347140027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_118
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eef9b84902934b4692c2d8a1ac29ad6
+      internalID: -1790974771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_119
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e8f121ac980b4e45a1151375e33ab3c
+      internalID: -31556856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_120
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0dd37fee4f328a43bc3d34d384b84e7
+      internalID: -221346528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_121
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2d0c1307600024bafda363267542cd
+      internalID: -1141126315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_122
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cd60bdc28695444a01f994d660ecbe
+      internalID: -972991190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_123
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31a2e86e17cdf42b4b55bdead3c26f
+      internalID: -2132136985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_124
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9733c08af675d449de5f662f095aa5
+      internalID: -856264709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_125
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95fad4dfa67415b4ea3cd9a019cbefba
+      internalID: -1826275528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_126
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cae6a0f1fced734cac8b18e99270e1e
+      internalID: 1602249996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_127
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b91c89723a6e3469df4eb71f818341
+      internalID: 513576968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_128
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b802a5d2ef5dbe14590daab6fe46b348
+      internalID: -1257894553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_129
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78b83cf9915dd5c4c88a37f8d38683e0
+      internalID: -667871517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_130
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e777a3ea8d6de1c4aa835367a4f52a5f
+      internalID: -1991335978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_131
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e76c0d447111a0a44bc7cd95386629c3
+      internalID: 274148854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_132
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e23aebcefa72144b49d8313e28905e
+      internalID: 1635365079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_133
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0268aa1faf2aab2428272786a4cbf7ba
+      internalID: -2019759462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_134
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81d9c2924a461444b8bafd630e2265e
+      internalID: -1315622682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_135
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 384
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0db9772f1876440b6ce669d852a7ee
+      internalID: 1786710808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_136
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a9589ccee03e40a1aca61e5e0dcce
+      internalID: 1223747005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_137
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f0a073e00c7b9468321ca008a2cdd6
+      internalID: -45294943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_138
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dcee674a743054d88d668cce03f847
+      internalID: -187427743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_139
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88de0485b33abcd42943abda590d4af8
+      internalID: 2059124340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_140
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0b0ce49fc917a41b72b77938beaae0
+      internalID: -1463111171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_141
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c769d067e7cd4147ba59f768d0c4313
+      internalID: 1774589345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_142
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa1c687ed01f0848965e4de2b269746
+      internalID: -848557010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_143
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baee821498218364ea84f38d176e8e49
+      internalID: 943834545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_144
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ccf622a9c98e34c8aa615e30401998
+      internalID: 1032798435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_145
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4eea8c248ff2f84983c61b82e35c27d
+      internalID: 1422257669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_146
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23304ee9808f8704d8db95fe76bb949d
+      internalID: 2117640396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_147
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72e8c21ee9ab3546ad44fa20cb65680
+      internalID: -1315095498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_148
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5f5b3a77fdb7408e1d5707daa55c3
+      internalID: -639465035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_149
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7277a9373d97f1c4a86ca640646ad379
+      internalID: -2098407076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_150
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 352
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ad06a5a3e92104b9fa37543fee2f89
+      internalID: -1763261048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_151
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa8a17b50a8a527469c5e10e2a2f8b32
+      internalID: 1853193247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_152
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55add7bfd3184b499b9c132a1e6b787
+      internalID: -1158375242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_153
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dd93e4d95722e4b84d724d9f946fd5
+      internalID: -508329944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_154
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7d8209e47ae3649a6fadab0f36dbe5
+      internalID: -1064371444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_155
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4662af8669a41914a84b6b1a5f1ba631
+      internalID: 736066853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_156
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9d790e6733a1c40b460082e6b4dd94
+      internalID: 1102197430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_157
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eaf8978d1eb9fb4993341a53dbfe4d3
+      internalID: -2020132817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_158
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae7baec8758a84f957c28e66d44f36
+      internalID: 433754164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_159
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5afa5bb756254468901c7ad15d5360
+      internalID: 1629143632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_160
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5799444643d1fd4d87deae0aad0bb51
+      internalID: -414997182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_161
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 320
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322e04dda71dfb048b287d27b889e24b
+      internalID: 291238054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_162
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c834ab1da77f8da4583c21417c84a983
+      internalID: -1400806424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_163
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf308da07fdef3042ab39a17d3f94361
+      internalID: -1756599932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_164
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18347aa7fa7322438f1303557c32f05
+      internalID: -6132230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_165
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6892679dd7baa6a4d8a75c6d531360a4
+      internalID: 427365223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_166
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11fc2d85131a994b8b760988cfbd914
+      internalID: -802979964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_167
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b608c12d169b524c96b33add36c4c50
+      internalID: -1592012175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_168
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6dea5de4d24b041aa9f24629cce413
+      internalID: 552975520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_169
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b86b6fb2bdad240b530fd9b297c454
+      internalID: -143258900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_170
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 974a87165e5177c4f9d6e823253cac2e
+      internalID: -757820799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_171
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 288
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee79158b16e01046b28cd7bdd7d68d8
+      internalID: 1206830065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_172
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c37909b05284684392a230ea8e25e75
+      internalID: 273482583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_173
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b233f89f134f942a81023c8f6e8ca6
+      internalID: 1700894537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_174
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7d02c429105d944948fdf5b6071096
+      internalID: -326179053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_175
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44223822569d324a997de90accf2c51
+      internalID: -1501516920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_176
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa99da0a8ca123a49988ee429e162c36
+      internalID: 573499094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_177
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf89d01c15622cb44bde555697cb6dac
+      internalID: 1269954448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_178
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99a4ba0da157bd45bd98689a24047b2
+      internalID: -1389508700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_179
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1f02312a50eca47ae126dd45e5dd3f
+      internalID: -2065690759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_180
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c7bbf61093b9042bc4992517337a11
+      internalID: 1304877020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_181
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9305dfdd5c07094d996b02d5fbf7c26
+      internalID: -48751698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_182
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13704fbdadcc54846879c28a4485e53d
+      internalID: 1457300765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_183
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 256
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb8ac297c66bc428dc1346412cfe4f
+      internalID: -289664428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_184
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290711fcd516f4f459a6213215b1155b
+      internalID: -357434089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_185
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3c70ad86ab5214c8b1faa37760a90e
+      internalID: 1425660878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_186
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd640bd9af45e4f43bed4ed255f7f570
+      internalID: -1181258305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_187
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d399b3abde36dd4ebdcc570ee411792
+      internalID: 1209593334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_188
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962ce021633124418dd41f697cfe3b5
+      internalID: -1225281167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_189
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b4a6182960a1d41ab882b4f3100dc0
+      internalID: 1947850776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_190
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95adaf2a29025e34c939c38b95d25cfa
+      internalID: 518525330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_191
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a571fceb2970d3145b60fe26aa5b8314
+      internalID: 1466491419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_192
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: debab24ef911d6c40b358c3810cf555a
+      internalID: -140134441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_193
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 764b540b8ad550b40b1bfea214575d3b
+      internalID: -5903398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_194
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f662a83e1c003654b94f1545dbee1739
+      internalID: 2115878480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_195
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b161ad4969f714cac7cd26aa2788fa
+      internalID: -845171512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_196
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c1d1faef800b74db492b9de9b12823
+      internalID: -1214428026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_197
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ecaee9143b09cd4ea9340db8de182ce
+      internalID: -817915232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_198
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 224
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024766041b37329409e1f2d1e8c8e9bd
+      internalID: -1528555673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_199
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0087ec22b1c41c47aebb3d8c5b30d7a
+      internalID: -566949362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_200
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e10a182961caf4d96999c8f0e07d7b
+      internalID: -1775270301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_201
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24d4705470280f4b8445e09ae19e0a4
+      internalID: -694167785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_202
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef30f3ba74b32774f8be61383ca68838
+      internalID: -303869575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_203
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23eb331953c39144b57f17198798322
+      internalID: 918388358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_204
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e216d474b8b6334294494ad441c4296
+      internalID: -1038801019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_205
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b135d4139dba247b6f7b2ed738e657
+      internalID: -1200898711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_206
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158acb66ba3ee8044ac058ae3968c3ed
+      internalID: -1689135167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_207
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60129d4cd14da64189beb60d8d1c854
+      internalID: 1322315207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_208
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7517cd42b13184ca8203919d89cf4a
+      internalID: -460261821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_209
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d901821a63f8c438b112ce23c6e39c
+      internalID: -1436656728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_210
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf9f085b9b702f34798655de8bf508a5
+      internalID: 1847686678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_211
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46234eaf3c21dc3458f7485c74a121cd
+      internalID: -829245871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_212
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9b1a989b45b8f47ae54e485b529add
+      internalID: 413222113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_213
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f8e4263de774b41a0bbe8626878aeb
+      internalID: 778555290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_214
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67163495c52948146808cf7a074eaa84
+      internalID: 1548509180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_215
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 192
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409b341e98c7d9f41bf3c646cee3e143
+      internalID: -1498539676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_216
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 160
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0ca50a96e1e8847bd0ce9f89c51bfb
+      internalID: -1092210940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_217
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 160
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3800147fe5049e54cafc4a3045ed5218
+      internalID: -1827434335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_218
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de455aaa6b9792048b2527c41401aaec
+      internalID: 615505486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_219
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af083ac4a00422144853db2419dd25bc
+      internalID: 784502717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_220
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24baf16fbd24b874b945201c2326058e
+      internalID: 1628422572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_221
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e29b08987e36d4b830d67d76525274
+      internalID: -1871831383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_222
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9211cb31dfa561441a30d2a4d57963ed
+      internalID: -554388984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_223
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597669aa2a8241849a45462a906e17a1
+      internalID: 1871749423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_224
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9de792714ed5c43944dcb42180e6aa
+      internalID: -2146720470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_225
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 232f67d48d5552743a7d211ddc53689a
+      internalID: -767148104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_226
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c6de56c55982f4084b67467724d140
+      internalID: -1274612914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_227
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcd1d14b3d2aed45ad7083a1c61d53a
+      internalID: -188960943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_228
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7e3b1ae7ded3e4da006b24322c7bfa
+      internalID: 2125657404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_229
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb64f3d1c427dd04f92f91dc5b161c8a
+      internalID: 1337162205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_230
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9acf18f89e2e941971b3d99fcd46a2
+      internalID: -1850479073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_231
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 128
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ba1b560daa74348bf1b097f29659ff
+      internalID: -1156934365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_232
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3799486d87ec6114eba3184e597ee7a0
+      internalID: 1146772652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_233
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20871b44cf862b468bca02aab60d65d
+      internalID: 678045039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_234
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61349c856d2db6147846faf4fd1caedb
+      internalID: -964276804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_235
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fc14ddbc95580409822a05f1ad7031
+      internalID: -557927491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_236
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cd6860269969e479496900dab7484e
+      internalID: -79524438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_237
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b48afcfc05ebf646a3254bd26d701ed
+      internalID: -65840726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_238
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e74211935ac0940a0bb94553669b6c
+      internalID: 1551175174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_239
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b741581015013fd4382f036c852ab245
+      internalID: -871653815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_240
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7f056f951e62345b13de0fe5547d7b
+      internalID: -763271885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_241
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94926db2839c10489460aa58ab6e977
+      internalID: -1980043884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_242
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8102de4997da637458672140b8fee31e
+      internalID: -729059805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_243
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e1dbb641ceeeb4dbf5dcfe85ba19e6
+      internalID: -1388387657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_244
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52186da62f2eb0a48bdbaac4368d3cbf
+      internalID: 328443104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_245
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630286c35234ed94a8af8eb6b2d513cc
+      internalID: -192102022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_246
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197b7a7dd7fdd614692955447f7be644
+      internalID: 1165993929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_247
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44aeb5a07813b94b8e931f6ed7f9394
+      internalID: 983318898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_248
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 96
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8afd06d1454c249bfbfd5c5b17c0b0
+      internalID: -614527393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_249
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23455568f1cef814f801d8caf5903a0e
+      internalID: -1704358823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_250
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87dabc58c2bef2044ad48e8bfaf1d96b
+      internalID: -982266193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_251
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5775d852bfd42044cb720a1c8a17d530
+      internalID: -2079305970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_252
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85128f385e9634f41bb6cd6d6c72dfd2
+      internalID: 215105006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_253
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a710decaa28dd4fbd54b413cf9f3cc
+      internalID: -666347569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_254
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59b2cd8f1780974d863773d98693ec0
+      internalID: -1972357874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_255
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03792b7cf5f5d524f870217caa21b787
+      internalID: 1785111254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_256
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8913c174665700469e7d303eaba3f11
+      internalID: 1287859234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_257
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e093498bc64c2ac46868b5ce4b10a90a
+      internalID: 1966623280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_258
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c4420670ba471428be095e64039530
+      internalID: 710223135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_259
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9a36ad550a8ce42b4843aece70364d
+      internalID: -470325365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_260
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13876dbd735bc5741b11e7e52ae3af8e
+      internalID: 273152117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_261
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88930c26a2bb65428f4b6aacbc88fa9
+      internalID: 1054495510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_262
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67b45045eb7c2145814835db96b15fc
+      internalID: -2138845634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_263
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9e0aa5ac3dde942844931eba643fee
+      internalID: -1683731339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_264
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96e4a5944248be4394148f46250c7f5
+      internalID: 1275995838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_265
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe43163162160c4f9d0e03692ff3dd9
+      internalID: 1344326040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_266
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da16c3d6607099d45a0aff3bc5a58c3a
+      internalID: 1189945522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_267
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78de986cd587d64ba2a5332c38cf88b
+      internalID: -1237484908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_268
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8bf8390ac4b0a4fa9233424524f568
+      internalID: 722022917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_269
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf32c4fae4533a5499f817d994d71dc7
+      internalID: -190814226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_270
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 64
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995bce43f9b07a341bcdbdb1473f9807
+      internalID: -2093491021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_271
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b39df648d33b8304e9100ce98fca953a
+      internalID: 1755657996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_272
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728d1baa1ca4eb248ae462e3d5027b09
+      internalID: 252205647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_273
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f4fe186773b404187782c593c5fd0b
+      internalID: 1402556874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_274
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75370fa9e0c23944087dacc6de79137a
+      internalID: -1781034176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_275
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4cf127693ee1554db5843d8a2ed9aa1
+      internalID: -1572568371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_276
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4e480e0fcfe464a8a403cceba3991c
+      internalID: 149347189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_277
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f261b13f332474b418034da7f99d223e
+      internalID: -2104438334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_278
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd4d4b9e888aa4dbf42413d3a142ad
+      internalID: 1983208364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_279
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce411155cebbe94bacd2afe852e5a6e
+      internalID: -1072029618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_280
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8062f829d7bfe41a3ab07449efe970
+      internalID: 370647272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_281
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96cdfd878d192e4980785265f9f0933
+      internalID: 1683363030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_282
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecdeb039beb9b04cbffc82cdf4805d1
+      internalID: 697529686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_283
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1acece126215a446a08e899d01a4c65
+      internalID: 2058183891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_284
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656d19fbace81444d8f1c946164ce2af
+      internalID: -1381134700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_285
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bcb86cf2b55454d9b51154999dc822
+      internalID: 898159713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_286
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962e01ba645daf24c942901c7d5d9007
+      internalID: 1454236728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_287
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a3463bd516df4cadcb50494690e0f
+      internalID: 923337718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_288
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e6a8c1f44aeaf41aaca2a22a95fadf
+      internalID: -232643511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_289
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b555abcbb1742642843d97cfe236ba6
+      internalID: 751066886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_290
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102cf4acebb56e446b6cc0a7130cbc51
+      internalID: 1859268252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_291
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 32
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcadcc91732b50478511fb72188a6d6
+      internalID: 1404031203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_292
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5489ec7661c9108498e330faa22c39cb
+      internalID: -1378959728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_293
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ae973e0c9cb294fa4eca341abf3024
+      internalID: -2089479500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_294
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f8800b9b6f19b44aeb6011e3653a60
+      internalID: -132850280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_295
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbebf420f74b5e4d81ee8648c055343
+      internalID: 727785866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_296
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a6f070e3a2c554d9599e98771c037d
+      internalID: -1808382054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_297
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff26d17c6eefddd41bdbc0d3ccbe4024
+      internalID: -1004258068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_298
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf53be2ed1610864fbbded2220be9ba8
+      internalID: 809509315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_299
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a55fec7d5bbe5d42ab73a9f85c31e41
+      internalID: -1073481212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_300
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdec886e65ad2ed43a12e6b7fe005002
+      internalID: 266912917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_301
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2bae5a6fd5b7748aeb393df58477f9
+      internalID: -1791332979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_302
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d153df4a25e18479fd100703a547fc
+      internalID: -95512988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_303
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3239965bb7c7881449053b5c2270a202
+      internalID: 1352108698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_304
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b95d7069a2d32947952c443cd3311e9
+      internalID: -1911068511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_305
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6abb914aa61534a86d8e8b6a384d8c
+      internalID: -2067056052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_306
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9550116c1f4cc429f2feaf68349e6b
+      internalID: -1561605042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_307
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 525bbc5ea7ad3114084cc7fe9e7c0f5e
+      internalID: -674624582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_308
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e887168df529b1f4198e91d4c9ccf6e4
+      internalID: 1803652584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_309
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50804d6b589e124bb09f9b0a2a22420
+      internalID: -501902948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decorative_obj_310
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 0
+        width: 34.133335
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc287ee61e1a0f44bf2ee297811faf8
+      internalID: 1302770849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      decorative_obj_0: -621923012
+      decorative_obj_1: -1833452026
+      decorative_obj_10: 2025613026
+      decorative_obj_100: -160964192
+      decorative_obj_101: -1024207579
+      decorative_obj_102: 1863946418
+      decorative_obj_103: 1410161559
+      decorative_obj_104: -1131079375
+      decorative_obj_105: -1276575807
+      decorative_obj_106: 159562838
+      decorative_obj_107: -364745719
+      decorative_obj_108: -11846615
+      decorative_obj_109: -817535626
+      decorative_obj_11: -1110626006
+      decorative_obj_110: -1789940009
+      decorative_obj_111: 1845360897
+      decorative_obj_112: 1491341141
+      decorative_obj_113: 619181876
+      decorative_obj_114: -1994643460
+      decorative_obj_115: 988843680
+      decorative_obj_116: -1682480393
+      decorative_obj_117: -1347140027
+      decorative_obj_118: -1790974771
+      decorative_obj_119: -31556856
+      decorative_obj_12: -1656164120
+      decorative_obj_120: -221346528
+      decorative_obj_121: -1141126315
+      decorative_obj_122: -972991190
+      decorative_obj_123: -2132136985
+      decorative_obj_124: -856264709
+      decorative_obj_125: -1826275528
+      decorative_obj_126: 1602249996
+      decorative_obj_127: 513576968
+      decorative_obj_128: -1257894553
+      decorative_obj_129: -667871517
+      decorative_obj_13: -1002145412
+      decorative_obj_130: -1991335978
+      decorative_obj_131: 274148854
+      decorative_obj_132: 1635365079
+      decorative_obj_133: -2019759462
+      decorative_obj_134: -1315622682
+      decorative_obj_135: 1786710808
+      decorative_obj_136: 1223747005
+      decorative_obj_137: -45294943
+      decorative_obj_138: -187427743
+      decorative_obj_139: 2059124340
+      decorative_obj_14: 171661109
+      decorative_obj_140: -1463111171
+      decorative_obj_141: 1774589345
+      decorative_obj_142: -848557010
+      decorative_obj_143: 943834545
+      decorative_obj_144: 1032798435
+      decorative_obj_145: 1422257669
+      decorative_obj_146: 2117640396
+      decorative_obj_147: -1315095498
+      decorative_obj_148: -639465035
+      decorative_obj_149: -2098407076
+      decorative_obj_15: 1378508576
+      decorative_obj_150: -1763261048
+      decorative_obj_151: 1853193247
+      decorative_obj_152: -1158375242
+      decorative_obj_153: -508329944
+      decorative_obj_154: -1064371444
+      decorative_obj_155: 736066853
+      decorative_obj_156: 1102197430
+      decorative_obj_157: -2020132817
+      decorative_obj_158: 433754164
+      decorative_obj_159: 1629143632
+      decorative_obj_16: -1092515819
+      decorative_obj_160: -414997182
+      decorative_obj_161: 291238054
+      decorative_obj_162: -1400806424
+      decorative_obj_163: -1756599932
+      decorative_obj_164: -6132230
+      decorative_obj_165: 427365223
+      decorative_obj_166: -802979964
+      decorative_obj_167: -1592012175
+      decorative_obj_168: 552975520
+      decorative_obj_169: -143258900
+      decorative_obj_17: 1523425196
+      decorative_obj_170: -757820799
+      decorative_obj_171: 1206830065
+      decorative_obj_172: 273482583
+      decorative_obj_173: 1700894537
+      decorative_obj_174: -326179053
+      decorative_obj_175: -1501516920
+      decorative_obj_176: 573499094
+      decorative_obj_177: 1269954448
+      decorative_obj_178: -1389508700
+      decorative_obj_179: -2065690759
+      decorative_obj_18: -1911872012
+      decorative_obj_180: 1304877020
+      decorative_obj_181: -48751698
+      decorative_obj_182: 1457300765
+      decorative_obj_183: -289664428
+      decorative_obj_184: -357434089
+      decorative_obj_185: 1425660878
+      decorative_obj_186: -1181258305
+      decorative_obj_187: 1209593334
+      decorative_obj_188: -1225281167
+      decorative_obj_189: 1947850776
+      decorative_obj_19: 1242727643
+      decorative_obj_190: 518525330
+      decorative_obj_191: 1466491419
+      decorative_obj_192: -140134441
+      decorative_obj_193: -5903398
+      decorative_obj_194: 2115878480
+      decorative_obj_195: -845171512
+      decorative_obj_196: -1214428026
+      decorative_obj_197: -817915232
+      decorative_obj_198: -1528555673
+      decorative_obj_199: -566949362
+      decorative_obj_2: 569335708
+      decorative_obj_20: 1371478041
+      decorative_obj_200: -1775270301
+      decorative_obj_201: -694167785
+      decorative_obj_202: -303869575
+      decorative_obj_203: 918388358
+      decorative_obj_204: -1038801019
+      decorative_obj_205: -1200898711
+      decorative_obj_206: -1689135167
+      decorative_obj_207: 1322315207
+      decorative_obj_208: -460261821
+      decorative_obj_209: -1436656728
+      decorative_obj_21: -338599599
+      decorative_obj_210: 1847686678
+      decorative_obj_211: -829245871
+      decorative_obj_212: 413222113
+      decorative_obj_213: 778555290
+      decorative_obj_214: 1548509180
+      decorative_obj_215: -1498539676
+      decorative_obj_216: -1092210940
+      decorative_obj_217: -1827434335
+      decorative_obj_218: 615505486
+      decorative_obj_219: 784502717
+      decorative_obj_22: -47433481
+      decorative_obj_220: 1628422572
+      decorative_obj_221: -1871831383
+      decorative_obj_222: -554388984
+      decorative_obj_223: 1871749423
+      decorative_obj_224: -2146720470
+      decorative_obj_225: -767148104
+      decorative_obj_226: -1274612914
+      decorative_obj_227: -188960943
+      decorative_obj_228: 2125657404
+      decorative_obj_229: 1337162205
+      decorative_obj_23: -917517324
+      decorative_obj_230: -1850479073
+      decorative_obj_231: -1156934365
+      decorative_obj_232: 1146772652
+      decorative_obj_233: 678045039
+      decorative_obj_234: -964276804
+      decorative_obj_235: -557927491
+      decorative_obj_236: -79524438
+      decorative_obj_237: -65840726
+      decorative_obj_238: 1551175174
+      decorative_obj_239: -871653815
+      decorative_obj_24: -1898497710
+      decorative_obj_240: -763271885
+      decorative_obj_241: -1980043884
+      decorative_obj_242: -729059805
+      decorative_obj_243: -1388387657
+      decorative_obj_244: 328443104
+      decorative_obj_245: -192102022
+      decorative_obj_246: 1165993929
+      decorative_obj_247: 983318898
+      decorative_obj_248: -614527393
+      decorative_obj_249: -1704358823
+      decorative_obj_25: 1309294243
+      decorative_obj_250: -982266193
+      decorative_obj_251: -2079305970
+      decorative_obj_252: 215105006
+      decorative_obj_253: -666347569
+      decorative_obj_254: -1972357874
+      decorative_obj_255: 1785111254
+      decorative_obj_256: 1287859234
+      decorative_obj_257: 1966623280
+      decorative_obj_258: 710223135
+      decorative_obj_259: -470325365
+      decorative_obj_26: -557849502
+      decorative_obj_260: 273152117
+      decorative_obj_261: 1054495510
+      decorative_obj_262: -2138845634
+      decorative_obj_263: -1683731339
+      decorative_obj_264: 1275995838
+      decorative_obj_265: 1344326040
+      decorative_obj_266: 1189945522
+      decorative_obj_267: -1237484908
+      decorative_obj_268: 722022917
+      decorative_obj_269: -190814226
+      decorative_obj_27: -1741966085
+      decorative_obj_270: -2093491021
+      decorative_obj_271: 1755657996
+      decorative_obj_272: 252205647
+      decorative_obj_273: 1402556874
+      decorative_obj_274: -1781034176
+      decorative_obj_275: -1572568371
+      decorative_obj_276: 149347189
+      decorative_obj_277: -2104438334
+      decorative_obj_278: 1983208364
+      decorative_obj_279: -1072029618
+      decorative_obj_28: 1668434355
+      decorative_obj_280: 370647272
+      decorative_obj_281: 1683363030
+      decorative_obj_282: 697529686
+      decorative_obj_283: 2058183891
+      decorative_obj_284: -1381134700
+      decorative_obj_285: 898159713
+      decorative_obj_286: 1454236728
+      decorative_obj_287: 923337718
+      decorative_obj_288: -232643511
+      decorative_obj_289: 751066886
+      decorative_obj_29: -182153219
+      decorative_obj_290: 1859268252
+      decorative_obj_291: 1404031203
+      decorative_obj_292: -1378959728
+      decorative_obj_293: -2089479500
+      decorative_obj_294: -132850280
+      decorative_obj_295: 727785866
+      decorative_obj_296: -1808382054
+      decorative_obj_297: -1004258068
+      decorative_obj_298: 809509315
+      decorative_obj_299: -1073481212
+      decorative_obj_3: -1207814631
+      decorative_obj_30: 705767448
+      decorative_obj_300: 266912917
+      decorative_obj_301: -1791332979
+      decorative_obj_302: -95512988
+      decorative_obj_303: 1352108698
+      decorative_obj_304: -1911068511
+      decorative_obj_305: -2067056052
+      decorative_obj_306: -1561605042
+      decorative_obj_307: -674624582
+      decorative_obj_308: 1803652584
+      decorative_obj_309: -501902948
+      decorative_obj_31: 282931199
+      decorative_obj_310: 1302770849
+      decorative_obj_32: 655852696
+      decorative_obj_33: -914429804
+      decorative_obj_34: -342270044
+      decorative_obj_35: -247397189
+      decorative_obj_36: -824887373
+      decorative_obj_37: -2052705666
+      decorative_obj_38: 1308928859
+      decorative_obj_39: -214685851
+      decorative_obj_4: -1715221572
+      decorative_obj_40: -775839565
+      decorative_obj_41: 230922225
+      decorative_obj_42: 2061332114
+      decorative_obj_43: -896342969
+      decorative_obj_44: 1651322561
+      decorative_obj_45: -1273099032
+      decorative_obj_46: 1459422536
+      decorative_obj_47: 159466696
+      decorative_obj_48: -2044344369
+      decorative_obj_49: 130302576
+      decorative_obj_5: -1843205189
+      decorative_obj_50: -1803707492
+      decorative_obj_51: 752047216
+      decorative_obj_52: 1042164912
+      decorative_obj_53: -1718118348
+      decorative_obj_54: -908494095
+      decorative_obj_55: -878820697
+      decorative_obj_56: 134211264
+      decorative_obj_57: -776340523
+      decorative_obj_58: 1791418640
+      decorative_obj_59: -137210977
+      decorative_obj_6: -856681554
+      decorative_obj_60: 1873377613
+      decorative_obj_61: -1571368221
+      decorative_obj_62: -1433760293
+      decorative_obj_63: 1960281928
+      decorative_obj_64: 485110520
+      decorative_obj_65: -934842396
+      decorative_obj_66: -313678049
+      decorative_obj_67: 1132859231
+      decorative_obj_68: -1244200938
+      decorative_obj_69: 1933137401
+      decorative_obj_7: 443067380
+      decorative_obj_70: -2012324065
+      decorative_obj_71: 1917770476
+      decorative_obj_72: -1176618762
+      decorative_obj_73: 912215505
+      decorative_obj_74: 552046591
+      decorative_obj_75: 1457776745
+      decorative_obj_76: 2114654708
+      decorative_obj_77: 979684497
+      decorative_obj_78: -1234716581
+      decorative_obj_79: -567732227
+      decorative_obj_8: -1550883254
+      decorative_obj_80: 1132954601
+      decorative_obj_81: -640545790
+      decorative_obj_82: -2105899454
+      decorative_obj_83: -2129987475
+      decorative_obj_84: -40433872
+      decorative_obj_85: 1884577775
+      decorative_obj_86: 196476189
+      decorative_obj_87: 1491379274
+      decorative_obj_88: 1831313892
+      decorative_obj_89: 1684693061
+      decorative_obj_9: 592031176
+      decorative_obj_90: 496947941
+      decorative_obj_91: -1206024273
+      decorative_obj_92: -250698126
+      decorative_obj_93: -209381027
+      decorative_obj_94: 193730792
+      decorative_obj_95: -347311919
+      decorative_obj_96: 1317841487
+      decorative_obj_97: 864627567
+      decorative_obj_98: -1810060475
+      decorative_obj_99: 1425230239
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

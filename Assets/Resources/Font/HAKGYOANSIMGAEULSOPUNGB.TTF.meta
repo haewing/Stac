@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ff013e745243058448134cbd73507856
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hakgyoansim Gaeulsopung
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fc7ab1e637e49f543959568e886d307c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

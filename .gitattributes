@@ -1,0 +1,4 @@
+Assets/Resources/Sounds/타이틀 filter=lfs diff=lfs merge=lfs -text
+브금.wav filter=lfs diff=lfs merge=lfs -text
+Assets/Resources/Sounds/타이틀[[:space:]]브금.wav filter=lfs diff=lfs merge=lfs -text
+Assets/Resources/ filter=lfs diff=lfs merge=lfs -text
