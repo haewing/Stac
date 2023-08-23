@@ -60,6 +60,13 @@ public class Boss : MonoBehaviour
 
     }
     // Start is called before the first frame update
+    enum BossState
+    {
+        Nomal,
+        Skill,
+        Stern,
+        Death,
+    }
     void Start()
     {
         m_Ani = gameObject.GetComponent<Animator>();

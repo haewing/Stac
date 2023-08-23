@@ -14,8 +14,9 @@ public class MainScene : MonoBehaviour
     {
         m_BattleFSM.Initalize(Ready, Game, Wave, Result);
         m_BattleFSM.SetReadyState();
-        GameMng.GetIns.GameClear = false;
-        
+
+        GameMng.GetIns.Init();
+        InfoMng.GetIns.init();
     }
     void Ready()
     {

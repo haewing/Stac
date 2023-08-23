@@ -33,9 +33,25 @@ public class GameMng
     public bool PlayerGrapplingHitCheck = false;
     public bool PlayerCastleIn = false;
 
-    public int CameraMode = 0;
+    public int  CameraMode = 0;
 
-    public bool BossClear = false;
-    public bool GameClear = false;
+    public bool  BossClear = false;
+    public bool  GameClear = false;
 
+    public float PlayTime = 0;
+
+    public void Init()
+    {
+        Speed = 10;
+        KnifeCoolTime = 0.5f;
+
+        PlayerGrapplingHitCheck = false;
+
+        CameraMode = 0;
+
+        BossClear = false;
+        GameClear = false;
+
+        PlayTime = 0;
+    }
 }

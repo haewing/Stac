@@ -15,6 +15,7 @@ public class BossClear : MonoBehaviour
 
         if(collision.gameObject.name == "GameClear")
         {
+            InfoMng.GetIns.StageName = SceneManager.GetActiveScene().name;
             StartCoroutine("Fade");
         }
     }

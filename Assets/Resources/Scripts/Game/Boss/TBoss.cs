@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TBoss : MonoBehaviour
 {
@@ -170,6 +171,7 @@ public class TBoss : MonoBehaviour
     }
     int dir = 1;
     int speed = 15;
+
     IEnumerator MovePattern()
     {
         while(gameObject != null)
