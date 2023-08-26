@@ -12,14 +12,18 @@ public class DamageSkin : MonoBehaviour
         rand = Random.Range(-20, 20);
         Destroy(gameObject, 1);
         StartCoroutine(coloralphachange());
+
     }
     float a = 1;
+    float y = 0;
     // Update is called once per frame
     void Update()
     {
         Vector3 CreatPos = Camera.main.WorldToScreenPoint(GameObject.Find("Boss").transform.position);
-        transform.Translate(Vector2.up * Time.deltaTime * 50);
-        transform.position = new Vector2(CreatPos.x + rand , transform.position.y);
+        y += Time.deltaTime * 50;
+
+
+        transform.position = new Vector2(CreatPos.x + rand, CreatPos.y +y );
 
 
 

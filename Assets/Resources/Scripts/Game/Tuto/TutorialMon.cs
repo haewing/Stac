@@ -4,23 +4,15 @@ using UnityEngine;
 
 public class TutorialMon : MonoBehaviour
 {
-    [HideInInspector] public float m_EnemyHP = 5;
-    public GameObject Set;
-    public GameObject Set1;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] GameObject set;
+    [SerializeField] GameObject set1;
+    // Start is called before the first frame update
+
+
+    private void OnDestroy()
     {
-        if (m_EnemyHP <= 0)
-        {
-            Set.SetActive(true);
-            Set1.SetActive(false);
-            Destroy(gameObject);
-        }
+        set.SetActive(true);
+        set1.SetActive(false);
     }
 }

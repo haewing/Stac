@@ -506,7 +506,7 @@ public class PlayerController : MonoBehaviour
         }
         if(collision.gameObject.tag == "BossBullet")
         {
-            Hit(1);
+            Hit(3);
         }
         
     }

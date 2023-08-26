@@ -35,17 +35,17 @@ public class KatanaCrash : MonoBehaviour
             {
                 if (Att == AttackMode.Att1)
                 {
-                    Boss1att(3, collision);
-                   
+                    Boss1att(2, collision);
+                    gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 }
                 if (Att == AttackMode.Att2)
                 {
-                    Boss1att(5, collision);
+                    Boss1att(3, collision);
                     gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 }
                 if (Att == AttackMode.Att3)
                 {
-                    Boss1att(7, collision);
+                    Boss1att(2, collision);
                     gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 }
                 if (Att == AttackMode.Air)
@@ -115,10 +115,14 @@ public class KatanaCrash : MonoBehaviour
 
         GameObject dxt =  Instantiate(DmgTxt, CreatPos, Quaternion.identity,parent);
         dxt.GetComponent<Text>().text = (-dmg).ToString();
+
+
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
         GameObject Ene = GameObject.Find("colliderInfo");
         InfoMng.GetIns.TBossHP -= dmg;
         if (InfoMng.GetIns.TBossHP <= 0) InfoMng.GetIns.TBossHP = 0;
+
+        GameObject.Find("colliderInfo").GetComponent<EnemyHP>().yellowHP();
     }
     void Boss2att(int dmg, Collider2D coll)
     {
@@ -129,6 +133,7 @@ public class KatanaCrash : MonoBehaviour
         GameObject Ene = GameObject.Find("colliderInfo");
         InfoMng.GetIns.BossHP2 -= dmg;
         if (InfoMng.GetIns.BossHP2 <= 0) InfoMng.GetIns.BossHP2 = 0;
+        GameObject.Find("colliderInfo").GetComponent<EnemyHP>().yellowHP();
     }
     void Boss1att(int dmg, Collider2D coll)
     {
@@ -139,5 +144,6 @@ public class KatanaCrash : MonoBehaviour
         GameObject Ene = GameObject.Find("colliderInfo");
         InfoMng.GetIns.BossHP -= dmg;
         if (InfoMng.GetIns.BossHP <= 0) InfoMng.GetIns.BossHP = 0;
+        GameObject.Find("colliderInfo").GetComponent<EnemyHP>().yellowHP();
     }
 }

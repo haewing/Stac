@@ -1451,6 +1451,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abf4f3dcb0a96584fac6a14a003689ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LockImage:
+  - {fileID: 141728708}
+  - {fileID: 1307932355}
 --- !u!1 &717638537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2658,6 +2661,7 @@ MonoBehaviour:
   - {fileID: 1417300342}
   - {fileID: 1592453006}
   - {fileID: 505296469}
+  StageSelect: {fileID: 649002323}
 --- !u!1 &1417300340
 GameObject:
   m_ObjectHideFlags: 0

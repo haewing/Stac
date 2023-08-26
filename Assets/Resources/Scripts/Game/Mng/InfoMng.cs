@@ -32,7 +32,7 @@ public class InfoMng
 
     public string StageName = null;
     public bool[] StageLock = {true,false,false };
-    public bool[] Stage1Star = { true, true, true };
+    public bool[] Stage1Star = { false, false, false };
     public bool[] Stage2Star = { true, true, true };
     public bool[] Stage3Star = { true, true, true };
 

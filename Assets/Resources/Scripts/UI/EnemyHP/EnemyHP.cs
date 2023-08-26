@@ -8,7 +8,8 @@ public class EnemyHP : MonoBehaviour
 {
     [SerializeField] public GameObject SetHP;
     [SerializeField] private Image m_HPBack;
-    [SerializeField] private Image m_HP;
+    [SerializeField] private Image m_HPY;
+    [SerializeField] public Image m_HP;
     //[SerializeField] private Text m_HPText;
     //[SerializeField] private Text _Name;
 
@@ -22,8 +23,12 @@ public class EnemyHP : MonoBehaviour
     public void InitializeUp()
     {
         Vector2 ThisPos = Camera.main.WorldToScreenPoint(GameObject.Find("Boss").transform.position);
-        m_HP.transform.position = ThisPos;
-        m_HPBack.transform.position = ThisPos;
+        Vector2 CorrectionPos = new Vector2(ThisPos.x, ThisPos.y + 120);
+        m_HP.transform.position = CorrectionPos;
+        m_HPY.transform.position = CorrectionPos;
+        m_HPBack.transform.position = CorrectionPos;
+
+
 
         switch (SceneManager.GetActiveScene().name)
         {
@@ -37,6 +42,19 @@ public class EnemyHP : MonoBehaviour
                 m_HP.fillAmount = InfoMng.GetIns.BossHP2 / 300;
                 break;
         }
+
+        if(y) m_HPY.fillAmount = Mathf.Lerp(m_HPY.fillAmount, m_HP.fillAmount, 10f * Time.deltaTime);
     }
-    
+    bool y = false; 
+    public void yellowHP()
+    {
+        StartCoroutine(WaitHP());
+    }
+    IEnumerator WaitHP()
+    {
+        y = false;
+        yield return new WaitForSeconds(0.6f);
+        y = true;
+        yield return new WaitForSeconds(0.6f);
+    }
 }

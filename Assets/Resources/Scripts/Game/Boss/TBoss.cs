@@ -149,8 +149,7 @@ public class TBoss : MonoBehaviour
             if(State == TBossState.Attack || State == TBossState.Hit || State == TBossState.Stern) { yield return new WaitForSeconds(0.1f); }
             State = TBossState.Move;
             MoveDir();
-            yield return new WaitForSeconds(1.0f);
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(2.0f);
             if(State == TBossState.Attack || State == TBossState.Hit || State == TBossState.Stern) { yield return new WaitForSeconds(0.1f); }
             State = TBossState.Idel;
             yield return new WaitForSeconds(1.0f);
@@ -182,6 +181,7 @@ public class TBoss : MonoBehaviour
 
                 if (transform.position.x > 370 && transform.position.x < 455)
                 {
+                    if (State == TBossState.Death) { break; }
                     ani.SetBool("IsRun", true);
 
                     transform.localEulerAngles = dir == 1 ? new Vector3(0, 0, 0) : new Vector3(0, 180, 0);
@@ -192,7 +192,7 @@ public class TBoss : MonoBehaviour
                     ani.SetBool("IsRun", false);
                     dir = transform.position.x > 413 ? -1 : 1;
                     gameObject.transform.Translate(new Vector2(speed * dir, 0) * Time.deltaTime,Space.World);
-                   
+                    if (State == TBossState.Death) { break; }
                     yield return new WaitForSeconds(1);
                 }
             }

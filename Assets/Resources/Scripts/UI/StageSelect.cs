@@ -8,6 +8,7 @@ public class StageSelect : MonoBehaviour
 {
  
     public static StageSelect Instance;
+    [SerializeField] Image[] LockImage;
     private void Awake()
     {
         if (Instance != null)
@@ -18,32 +19,44 @@ public class StageSelect : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
     }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            InfoMng.GetIns.StageName = "Stage1";
+        }
+    }
     public void Stage1()
     {
-        if (!InfoMng.GetIns.StageLock[0]) StartCoroutine(StageClick("lock1", 1,0));
-        else SceneManager.LoadScene("Stage1");
+
+        if (InfoMng.GetIns.StageLock[0])
+            SceneManager.LoadScene("Stage1");
     }
     public void Stage2()
     {
-        if (!InfoMng.GetIns.StageLock[1]) StartCoroutine(StageClick("lock2", 1,1));
-        else SceneManager.LoadScene("Stage2");
+        if (InfoMng.GetIns.StageLock[1])
+         SceneManager.LoadScene("Stage2");
     }
     public void Stage3()
     {
-        if (!InfoMng.GetIns.StageLock[2]) StartCoroutine(StageClick("lock3", 1,2));
-        else SceneManager.LoadScene("Stage3");
+        if (InfoMng.GetIns.StageLock[2])
+         SceneManager.LoadScene("Stage3");
+    }
+
+    public void StageH(string Stage, float a, int i)
+    {
+        StartCoroutine(StageClick(Stage, a, i));
     }
     IEnumerator StageClick(string Stage ,float alpha,int idx)
     {
-        Image stage = GameObject.Find(Stage).GetComponent<Image>();
         while (alpha > 0)
         {
             alpha -= Time.deltaTime * 2;
-            stage.color = new Color(1, 1, 1, alpha);
+            LockImage[idx-2].color = new Color(1, 1, 1, alpha);
 
             yield return new WaitForSeconds(0.01f);
         }
-        InfoMng.GetIns.StageLock[idx] = true;
+        InfoMng.GetIns.StageLock[idx - 1] = true;
         
     }
 }
