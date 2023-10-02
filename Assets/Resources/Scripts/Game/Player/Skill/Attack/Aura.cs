@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Aura : MonoBehaviour
 {
+    [SerializeField] GameObject DmgTxt;
     public GameObject m_Par;
     public void Myretate(Vector3 ratete){
         transform.eulerAngles = ratete;
@@ -25,6 +27,11 @@ public class Aura : MonoBehaviour
 
         if (collision.gameObject.tag == "Boss")
         {
+            Vector3 CreatPos = Camera.main.WorldToScreenPoint(collision.transform.position);
+            GameObject dxt = Instantiate(DmgTxt, CreatPos, Quaternion.identity, GameObject.Find("DmgParent").transform);
+            dxt.GetComponent<Text>().text = (-10).ToString();
+
+
             GameObject Par = Instantiate(m_Par, collision.transform.position, Quaternion.identity);
             Destroy(gameObject);
             GameObject Ene = GameObject.Find("colliderInfo");
@@ -36,6 +43,11 @@ public class Aura : MonoBehaviour
         }
         if (collision.gameObject.tag == "Boss2")
         {
+            Vector3 CreatPos = Camera.main.WorldToScreenPoint(collision.transform.position);
+            GameObject dxt = Instantiate(DmgTxt, CreatPos, Quaternion.identity, GameObject.Find("DmgParent").transform);
+            dxt.GetComponent<Text>().text = (-10).ToString();
+
+
             GameObject Par = Instantiate(m_Par, collision.transform.position, Quaternion.identity);
             Destroy(gameObject);
             GameObject Ene = GameObject.Find("colliderInfo");
@@ -47,6 +59,11 @@ public class Aura : MonoBehaviour
         }
         if (collision.gameObject.tag == "TBoss")
         {
+            Vector3 CreatPos = Camera.main.WorldToScreenPoint(collision.transform.position);
+            GameObject dxt = Instantiate(DmgTxt, CreatPos, Quaternion.identity, GameObject.Find("DmgParent").transform);
+            dxt.GetComponent<Text>().text = (-10).ToString();
+
+
             GameObject Par = Instantiate(m_Par, collision.transform.position, Quaternion.identity);
             Destroy(gameObject);
             GameObject Ene = GameObject.Find("colliderInfo");

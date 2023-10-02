@@ -50,6 +50,8 @@ public class Scope : MonoBehaviour
             }
             if (scene.name == "Stage3")
             {
+                InfoMng.GetIns.BossHP -= 4;
+                if (InfoMng.GetIns.BossHP2 <= 0) InfoMng.GetIns.BossHP2 = 0;
             }
         }
         if (collision.gameObject.tag == "Katana")

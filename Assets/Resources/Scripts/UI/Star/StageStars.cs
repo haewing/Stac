@@ -14,6 +14,8 @@ public class StageStars : MonoBehaviour
 
     IEnumerator starAnimate(int starCount, int stage)
     {
+
+        yield return new WaitForSeconds(3.2f);
         for (int i = (stage * 3) - 3; i < (stage * 3) - 3 + starCount ; i++)
         {
             stars[i].Animate();
@@ -21,17 +23,17 @@ public class StageStars : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.5f);
-
-        switch (stage)
         {
-            case 1:
-                StageSelect.StageH("stage2", 1, stage + 1);
-                break;
-            case 2:
-                StageSelect.StageH("stage3", 1, stage + 1);
-                break;
+            switch (stage)
+            {
+                case 1:
+                    StageSelect.StageH("stage2", 1, stage + 1);
+                    break;
+                case 2:
+                    StageSelect.StageH("stage3", 1, stage + 1);
+                    break;
+            }
         }
-
         
     }
 }

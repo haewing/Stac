@@ -17,6 +17,7 @@ public class MainScene : MonoBehaviour
 
         GameMng.GetIns.Init();
         InfoMng.GetIns.init();
+        Cursor.SetCursor(m_CursorImg, new Vector2(250,250), CursorMode.Auto);
     }
     void Ready()
     {
@@ -55,12 +56,13 @@ public class MainScene : MonoBehaviour
         {
             m_GameUI.InitializeUpdate();
             m_HudUI.InitializeUp();
-            Cursor.SetCursor(m_CursorImg, new Vector2(250,250), CursorMode.Auto);
 
-            if (Input.GetKeyDown(KeyCode.F))
+
+            if(InfoMng.GetIns.PlayerHP != 0)
             {
-                InfoMng.GetIns.PlayerHP += 10;
+                GameMng.GetIns.PlayTime += Time.deltaTime;
             }
+
         }
     }
 

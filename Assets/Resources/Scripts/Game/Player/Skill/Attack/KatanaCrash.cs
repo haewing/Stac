@@ -50,7 +50,7 @@ public class KatanaCrash : MonoBehaviour
                 }
                 if (Att == AttackMode.Air)
                 {
-                    Boss1att(20, collision);
+                    Boss1att(1.5f, collision);
                     gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 }
             }
@@ -76,7 +76,7 @@ public class KatanaCrash : MonoBehaviour
                 }
                 if (Att == AttackMode.Air)
                 {
-                    Boss2att(20, collision);
+                    Boss2att(1.5f, collision);
                     gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 }
             }
@@ -103,13 +103,13 @@ public class KatanaCrash : MonoBehaviour
                 }
                 if (Att == AttackMode.Air)
                 {
-                    TBossAtt(20, collision);
+                    TBossAtt(1.5f, collision);
                     gameObject.GetComponent<BoxCollider2D>().enabled = false;
                 }
             }
         }
     }
-    void TBossAtt(int dmg, Collider2D coll)
+    void TBossAtt(float dmg, Collider2D coll)
     {
         Vector3 CreatPos = Camera.main.WorldToScreenPoint(coll.transform.position);
 
@@ -124,7 +124,7 @@ public class KatanaCrash : MonoBehaviour
 
         GameObject.Find("colliderInfo").GetComponent<EnemyHP>().yellowHP();
     }
-    void Boss2att(int dmg, Collider2D coll)
+    void Boss2att(float dmg, Collider2D coll)
     {
         Vector3 CreatPos = Camera.main.WorldToScreenPoint(coll.transform.position);
         GameObject dxt = Instantiate(DmgTxt, CreatPos, Quaternion.identity, parent);
@@ -135,7 +135,7 @@ public class KatanaCrash : MonoBehaviour
         if (InfoMng.GetIns.BossHP2 <= 0) InfoMng.GetIns.BossHP2 = 0;
         GameObject.Find("colliderInfo").GetComponent<EnemyHP>().yellowHP();
     }
-    void Boss1att(int dmg, Collider2D coll)
+    void Boss1att(float dmg, Collider2D coll)
     {
         Vector3 CreatPos = Camera.main.WorldToScreenPoint(coll.transform.position);
         GameObject dxt = Instantiate(DmgTxt, CreatPos, Quaternion.identity, parent);

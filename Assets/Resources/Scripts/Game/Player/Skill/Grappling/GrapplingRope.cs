@@ -6,7 +6,7 @@ public class GrapplingRope : MonoBehaviour
 {
     public PlayerController m_PlayerController;
     [Header("General Refernces:")]
-    public GrapplingGun grapplingGun;
+    public MultyGrapplingGun grapplingGun;
     public LineRenderer m_lineRenderer;
 
     [Header("General Settings:")]

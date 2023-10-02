@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TBoss : MonoBehaviour
 {
+    [SerializeField] PolygonCollider2D m_MyCollider;
     [SerializeField] GrapplingRope m_GrapplingRope;
     [SerializeField] CameraShake m_CameraShake;
     [SerializeField] Transform[] m_WeaknessPos;
@@ -82,6 +83,22 @@ public class TBoss : MonoBehaviour
     [SerializeField] BoxCollider2D m_AttBox2;
     [SerializeField] BoxCollider2D m_AttRange;
 
+    public void OnAtt1()
+    {
+        m_AttBox1.enabled = true;
+    }
+    public void OffAtt1()
+    {
+        m_AttBox1.enabled = false;
+    }
+    public void OnAtt2()
+    {
+        m_AttBox2.enabled = true;
+    }
+    public void OffAtt2()
+    {
+        m_AttBox2.enabled = false;
+    }
     public void Att()
     {
         if(Random.Range(1,3) == 1)
@@ -113,10 +130,8 @@ public class TBoss : MonoBehaviour
     IEnumerator Attack1()
     {
         ani.SetTrigger("IsAtt1");
-        m_AttBox1.enabled = true;
         State = TBossState.Attack;
         yield return new WaitForSeconds(0.51f);
-        m_AttBox1.enabled = false;
         if (State == TBossState.Stern) yield return new WaitForSeconds(0.1f);
         State = TBossState.Move;
     }
@@ -129,9 +144,7 @@ public class TBoss : MonoBehaviour
     {
         ani.SetTrigger("IsAtt2");
         State = TBossState.Attack;
-        m_AttBox1.enabled = true;
         yield return new WaitForSeconds(0.51f);
-        m_AttBox1.enabled = false;
         if (State == TBossState.Stern) yield return new WaitForSeconds(0.1f);
         State = TBossState.Move;
     }
@@ -210,6 +223,8 @@ public class TBoss : MonoBehaviour
         {
             if (InfoMng.GetIns.TBossHP <= 0)
             {
+
+                m_MyCollider.enabled = false;
                 State = TBossState.Death;
                 GameMng.GetIns.CameraMode = 3;
                 yield return new WaitForSeconds(1.0f);
@@ -217,6 +232,7 @@ public class TBoss : MonoBehaviour
                 ani.SetTrigger("IsDeath");
                 yield return new WaitForSeconds(2.0f);
                 GameMng.GetIns.BossClear = true;
+                InfoMng.GetIns.GameClear = true;
                 Destroy(gameObject);
                 GameMng.GetIns.CameraMode = 0;
             }

@@ -22,28 +22,44 @@ public class EnemyHP : MonoBehaviour
     }
     public void InitializeUp()
     {
-        Vector2 ThisPos = Camera.main.WorldToScreenPoint(GameObject.Find("Boss").transform.position);
-        Vector2 CorrectionPos = new Vector2(ThisPos.x, ThisPos.y + 120);
-        m_HP.transform.position = CorrectionPos;
-        m_HPY.transform.position = CorrectionPos;
-        m_HPBack.transform.position = CorrectionPos;
-
-
-
-        switch (SceneManager.GetActiveScene().name)
+        if(GameObject.Find("HPbarPos") != null)
         {
-            case "Stage1":
-                m_HP.fillAmount = InfoMng.GetIns.TBossHP / 150;
-                break;
-            case "Stage2":
-                m_HP.fillAmount = InfoMng.GetIns.BossHP / 250;
-                break;
-            case "Stage3":
-                m_HP.fillAmount = InfoMng.GetIns.BossHP2 / 300;
-                break;
-        }
 
-        if(y) m_HPY.fillAmount = Mathf.Lerp(m_HPY.fillAmount, m_HP.fillAmount, 10f * Time.deltaTime);
+            Vector2 ThisPos = Camera.main.WorldToScreenPoint(GameObject.Find("HPbarPos").transform.position);
+            Vector2 CorrectionPos = new Vector2(ThisPos.x, ThisPos.y);
+            m_HP.transform.position = CorrectionPos;
+            m_HPY.transform.position = CorrectionPos;
+            m_HPBack.transform.position = CorrectionPos;
+
+
+
+            switch (SceneManager.GetActiveScene().name)
+            {
+                case "Stage1":
+                    m_HP.fillAmount = InfoMng.GetIns.TBossHP / 150;
+                    break;
+                case "Stage2":
+                    m_HP.fillAmount = InfoMng.GetIns.BossHP / 200;
+                    break;
+                case "Stage3":
+                    if(GameObject.Find("Boss").GetComponent<Boss2>().State == Boss2.BossState.Outburst)
+                    {
+                        m_HP.fillAmount = GameObject.Find("Boss").GetComponent<Boss2>().ScopeHP / 5;
+                    }
+                    else
+                    {
+                        m_HP.fillAmount = InfoMng.GetIns.BossHP2 / 250;
+
+                    }
+                    break;
+            }
+
+            if(y) m_HPY.fillAmount = Mathf.Lerp(m_HPY.fillAmount, m_HP.fillAmount, 10f * Time.deltaTime);
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
     }
     bool y = false; 
     public void yellowHP()

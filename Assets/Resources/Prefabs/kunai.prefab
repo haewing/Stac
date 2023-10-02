@@ -102,7 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Par: {fileID: 6349916230077146953, guid: d128015becaa83e44827bb4f159c18a5, type: 3}
   DmgTxt: {fileID: 8692563202915582360, guid: 827bbb59de140c34cba4448c2c6b62d0, type: 3}
-  parent: {fileID: 0}
 --- !u!114 &-5937861021339943840
 MonoBehaviour:
   m_ObjectHideFlags: 0

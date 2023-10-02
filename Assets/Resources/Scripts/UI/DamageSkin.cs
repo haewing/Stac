@@ -19,11 +19,13 @@ public class DamageSkin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 CreatPos = Camera.main.WorldToScreenPoint(GameObject.Find("Boss").transform.position);
+        if(GameObject.Find("DmgPos")!= null)
+        {
+
+        Vector3 CreatPos = Camera.main.WorldToScreenPoint(GameObject.Find("DmgPos").transform.position);
         y += Time.deltaTime * 50;
-
-
         transform.position = new Vector2(CreatPos.x + rand, CreatPos.y +y );
+        }
 
 
 

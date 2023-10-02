@@ -27,7 +27,6 @@ public class Mission : MonoBehaviour
     }
     public void MissionIn()
     {
-        Debug.Log("a");
         for (int i = 0; i < 1; i++)
         {
             if (!MisstionAniCheak)

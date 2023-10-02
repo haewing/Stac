@@ -48,25 +48,80 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
     }
+    enum PlayerState
+    {
+        Nomal,
+        Death,
+    }
+    PlayerState State = PlayerState.Nomal;
     public void InitializeUpdate()
     {
-
-        PlayerMove();//이동
-        PlayerJump();//점프
-        PlayerControll();//그래플
-        PlayerView();// 시야
-        PlayerAttack();//공격
-        PlayerSkill();//스킬
-        Viewguide();
-        //PlayerSpeedLimit();
+        if (State == PlayerState.Nomal) {
+            PlayerMove();//이동
+            PlayerJump();//점프
+            PlayerControll();//그래플
+            PlayerView();// 시야
+            PlayerAttack();//공격
+            PlayerSkill();//스킬
+            Viewguide();
+            PlayerDeathCheck();
+            //PlayerSpeedLimit();
+        }
+        else
+        {
+            PlayerDeath();
+        }
     }
 
-
+    [SerializeField] GameObject DeathPanel;
+    [SerializeField] GameObject DeathTime;
+    [SerializeField] GameObject DeathBtn;
     bool test = false;
     Vector3 Movepos;
     float ExitTest = 0;
+    bool DeathCorCheack = false;    
+    void PlayerDeath()
+    {
+        InfoMng.GetIns.PlayerHP = 0;
+        if (!DeathCorCheack)
+        StartCoroutine(DeathCor());
+    }
+    IEnumerator DeathCor()
+    {
+        ani.SetTrigger("IsDead");
+        DeathCorCheack = true;
+
+        yield return new WaitForSeconds(0.4f);
+        DeathPanel.SetActive(true);
+        yield return new WaitForSeconds(2.1f);
+        DeathTime.SetActive(true);
+        float curTime = 0;
+        while (curTime != GameMng.GetIns.PlayTime -0.5f)
+        {
+            Debug.Log(curTime);
+            DeathTime.GetComponent<Text>().text = string.Format("{0:00}:{1:00}", Mathf.FloorToInt(curTime / 60), Mathf.Round(curTime % 60));
+            curTime = Mathf.Lerp(curTime, GameMng.GetIns.PlayTime, 20f  * Time.deltaTime);
+            yield return new WaitForSeconds(0.1f);
+            if(curTime > GameMng.GetIns.PlayTime - 0.4f)
+            {
+                break;
+            }
+
+            
+        }
+        yield return new WaitForSeconds(0.5f);
+        DeathBtn.SetActive(true);
 
 
+
+    }
+    void PlayerDeathCheck()
+    {
+        if(InfoMng.GetIns.PlayerHP <= 0)
+        {
+            State = PlayerState.Death;
+        }
+    }
     public void PlayerSpeedLimit()
     {
         if (Mathf.Abs(rigid.velocity.x) > 80)
@@ -424,7 +479,21 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-    
+    public void AttSound1()
+    {
+        m_Sound.Sound_Player(10, false, false).Play();
+    }
+
+    public void AttSound2()
+    {
+        m_Sound.Sound_Player(11, false, false).Play();
+
+    }
+    public void AttSound3()
+    {
+
+        m_Sound.Sound_Player(12, false, false).Play();
+    }
     private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Floor")
@@ -462,10 +531,17 @@ public class PlayerController : MonoBehaviour
     
     
     [SerializeField] GameObject MiniCamera;
+    float EnergyTime = 0;
     private void OnTriggerStay2D(Collider2D collision)
     {
+        EnergyTime += Time.deltaTime;
+        if (collision.gameObject.name == "Energy" && EnergyTime >= 0.2f)
+        {
+            Hit(1);
+            EnergyTime = 0;
+        }
 
-        if(collision.gameObject.name == "AttDetect" && GameObject.Find("Boss").GetComponent<TBoss>().AttCol > 2)
+        if (collision.gameObject.name == "AttDetect" && GameObject.Find("Boss").GetComponent<TBoss>().AttCol > 2)
         {
             GameObject.Find("Boss").GetComponent<TBoss>().AttCol = 0;
             GameObject.Find("Boss").GetComponent<TBoss>().Att();
@@ -495,6 +571,10 @@ public class PlayerController : MonoBehaviour
             }
             Invoke("CameraInit", 1f);
         }
+        if(collision.gameObject.name == "IsAtt1Range" || collision.gameObject.name == "IsAtt2Range")
+        {
+            Hit(5);
+        }
         if(collision.gameObject.tag == "Laser")
         {
             Hit(3);
@@ -508,7 +588,15 @@ public class PlayerController : MonoBehaviour
         {
             Hit(3);
         }
-        
+        if (collision.gameObject.tag == "FireChild")
+        {
+            Hit(3);
+        }
+        if (collision.gameObject.tag == "Fire")
+        {
+            Hit(5);
+        }
+
     }
     void CameraInit()
     {

@@ -13,13 +13,13 @@ public class HudUI : MonoBehaviour
     public void Initialize()
     {
         m_Enemy.Initialize();
-        m_PlayerHP.Initialize();
-        StartCoroutine("Fade");
+        //m_PlayerHP.Initialize();
+        //StartCoroutine("Fade");
     }
     public void InitializeUp()
     {
-        m_Enemy.InitializeUp();
-        m_PlayerHP.InitializeUp();
+        //m_Enemy.InitializeUp();
+        //m_PlayerHP.InitializeUp();
     }
     float alpha = 1;
     IEnumerator Fade()

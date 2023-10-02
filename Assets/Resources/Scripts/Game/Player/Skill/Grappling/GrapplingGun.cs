@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class GrapplingGun : MonoBehaviour
 {
-    public SoundMng m_Sound;
+    SoundMng m_Sound;
     public GameObject m_Hook;
     public GameObject m_HookParticle;
     public PlayerController m_PlayerController;
@@ -37,6 +37,7 @@ public class GrapplingGun : MonoBehaviour
     [SerializeField] private bool hasMaxDistance = false;
     [SerializeField] private float maxDistnace = 20;
 
+    
     private enum LaunchType
     {
         Transform_Launch,
@@ -59,6 +60,7 @@ public class GrapplingGun : MonoBehaviour
     
     private void Start()
     {
+        m_Sound = GameObject.Find("SoundMng").GetComponent<SoundMng>();
         grappleRope.enabled = false;
         m_springJoint2D.enabled = false;
 

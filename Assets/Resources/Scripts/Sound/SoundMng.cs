@@ -1,22 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundMng : MonoBehaviour
 {
     private static SoundMng instance = null;
 
+    [SerializeField] Slider[] m_slider;
     public AudioSource[] m_Player;
     public AudioSource[] m_Enemy;
     public AudioSource[] m_Boss;
 
     public AudioSource[] m_SFX;
     public AudioSource m_bgm;
-    [Range(0, 5)] public float SoundSize;
 
     void Awake()
     {
 
+        m_slider[0].onValueChanged.AddListener(delegate { Bgm(); });
+        m_slider[1].onValueChanged.AddListener(delegate { Sfx(); });
+        
     }
     public static SoundMng Instance
     {
@@ -29,17 +33,31 @@ public class SoundMng : MonoBehaviour
             return instance;
         }
     }
-    private void Update()
+    public void Bgm()
     {
-        AudioSoundControl();
-    }
-    void AudioSoundControl()
+
+        m_bgm.volume = m_slider[0].value;
+    }   
+    public void Sfx()
     {
-        AudioListener.volume = SoundSize;
-        
+        for (int i = 0; i < m_SFX.Length; i++)
+        {
+
+            m_SFX[i].volume += m_slider[1].value;
+        }
+        for (int i = 0; i < m_Boss.Length; i++)
+        {
+            m_Boss[i].volume += m_slider[1].value;
+        }
+        for (int i = 0; i < m_Enemy.Length; i++)
+        {
+            m_Enemy[i].volume += m_slider[1].value;
+        }
+        for (int i = 0; i < m_Player.Length; i++)
+        {
+            m_Player[i].volume += m_slider[1].value;
+        }
     }
-
-
     public AudioSource Sound_SFX(int idx, bool Awake,bool Loop)
     {
         m_SFX[idx].playOnAwake = Awake;

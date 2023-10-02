@@ -19,7 +19,10 @@ public class GameMng
         }
     }
 
-    
+
+    public LobbyInfo _LobbyInfo = new LobbyInfo();
+    public InfoMng _GameInfo = new InfoMng();
+    public LobbyInfo lobbyInfo { get { return _LobbyInfo; } }
 
     public byte PlayerAttackMode = 0; 
 
@@ -36,10 +39,9 @@ public class GameMng
     public int  CameraMode = 0;
 
     public bool  BossClear = false;
-    public bool  GameClear = false;
 
     public float PlayTime = 0;
-
+    public bool TitleMenwStageSelete = false;
     public void Init()
     {
         Speed = 10;
@@ -50,7 +52,6 @@ public class GameMng
         CameraMode = 0;
 
         BossClear = false;
-        GameClear = false;
 
         PlayTime = 0;
     }

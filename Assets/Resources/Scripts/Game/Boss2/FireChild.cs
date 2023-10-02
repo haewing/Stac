@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FireChild : MonoBehaviour
 {
+    [SerializeField] GameObject Effect;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +20,7 @@ public class FireChild : MonoBehaviour
         if (collision.gameObject.tag == "Player" || collision.gameObject.tag == "Floor" || collision.gameObject.tag == "Wall")
         {
             Destroy(gameObject);
+            GameObject Eff = Instantiate(Effect, transform.position, Quaternion.identity);
         }
     }
 }

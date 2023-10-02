@@ -22,9 +22,7 @@ public class ClearDoor : MonoBehaviour
     {
         if (a)
         {
-            gameObject.transform.Translate(new Vector2(2 * Time.deltaTime, 0));
-
-            Invoke("Fade", 2);
+            Invoke("Fade", 1);
         }
     }
     void Fade()
@@ -32,7 +30,7 @@ public class ClearDoor : MonoBehaviour
             m_Fade.color = new Color(0, 0, 0, m_Fade.color.a + Time.deltaTime);
             if(m_Fade.color.a > 1)
             {
-                SceneManager.LoadScene("GameScene 1");
+                SceneManager.LoadScene("Title");
             }
 
     }

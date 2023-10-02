@@ -34,13 +34,15 @@ public class StageStar : MonoBehaviour
                 StageStarCount(_star, 3);
                 break;
         }
-        _star = 0;
-        InfoMng.GetIns.StageName = null;
+
+
     }
     
     public void StageStarCount(int StarCount, int Stage)
     {
-            stage1.PlayStarAnimation(StarCount, Stage);
+        stage1.PlayStarAnimation(StarCount, Stage);
+        _star = 0;
+        InfoMng.GetIns.StageName = null;
 
     }
 }

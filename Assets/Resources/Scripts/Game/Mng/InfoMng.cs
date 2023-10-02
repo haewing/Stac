@@ -32,17 +32,17 @@ public class InfoMng
 
     public string StageName = null;
     public bool[] StageLock = {true,false,false };
-    public bool[] Stage1Star = { false, false, false };
-    public bool[] Stage2Star = { true, true, true };
-    public bool[] Stage3Star = { true, true, true };
+    public bool[] Stage1Star = {false, false,false};
+    public bool[] Stage2Star = {false, false,false};
+    public bool[] Stage3Star = {false, false,false};
 
     public void init()
     {
         GameClear = false;
         TurretCount = 9;
          PlayerHP = 100;
-         BossHP = 250;
          TBossHP = 150;
-         BossHP2 = 300;
+         BossHP = 200;
+         BossHP2 = 250;
     }
 }

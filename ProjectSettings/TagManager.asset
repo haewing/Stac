@@ -23,6 +23,8 @@ TagManager:
   - Object
   - Zoom
   - TBoss
+  - FireChild
+  - Fire
   layers:
   - Default
   - TransparentFX

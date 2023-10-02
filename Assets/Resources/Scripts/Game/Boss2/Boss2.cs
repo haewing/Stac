@@ -21,6 +21,7 @@ public class Boss2 : MonoBehaviour
     [SerializeField] Transform m_Perent;
 
     [SerializeField] Transform[] m_TP_Pos;
+    [SerializeField] Transform[] BoderPos;
 
     [SerializeField] GameObject m_Energy;
 
@@ -31,7 +32,7 @@ public class Boss2 : MonoBehaviour
     {
         Initialize();
     }
-    enum BossState
+    public enum BossState
     {
         Stern,
         Nomal,
@@ -39,7 +40,7 @@ public class Boss2 : MonoBehaviour
         Outburst,
         Death,
     };
-    BossState State = BossState.Nomal;
+    public BossState State = BossState.Nomal;
     // Update is called once per frame
     bool boolDeath = false;
     int OutburstCount = 0;
@@ -89,7 +90,7 @@ public class Boss2 : MonoBehaviour
 
     [SerializeField] GameObject m_GuideLaser1;
     [SerializeField] GameObject m_GuideLaser2;
-
+    [SerializeField] GameObject m_Cage;
 
     IEnumerator BossDeath()
     {
@@ -97,11 +98,15 @@ public class Boss2 : MonoBehaviour
         {
             if (State == BossState.Death)
             {
+                GameMng.GetIns.BossClear = true;
+                InfoMng.GetIns.GameClear = true;
                 GameMng.GetIns.CameraMode = 3;
                 yield return new WaitForSeconds(1.0f);
                 m_Ani.gameObject.GetComponent<Animator>().enabled = true;
                 m_Ani.SetTrigger("IsDeath");
                 yield return new WaitForSeconds(2.0f);
+                m_Cage.GetComponent<Rigidbody2D>().gravityScale = 1;
+                m_Cage.GetComponent<BoxCollider2D>().isTrigger = true;
                 Destroy(gameObject);
                 GameMng.GetIns.CameraMode = 0;
             }
@@ -124,7 +129,7 @@ public class Boss2 : MonoBehaviour
         while(gameObject != null)
         {
             Transform p = GameObject.Find("Player").transform;
-            if (p.position.x >= -35 && p.position.x <= 53 && p.position.y >= -14 && p.position.y <= 68)
+            if (p.position.x >= -35 && p.position.x <= 53 && p.position.y >= -14 && p.position.y <= 68 && State == BossState.Outburst)
             {
                 yield return new WaitForSeconds(15);
                 m_GuideLaser1.SetActive(true);
@@ -299,7 +304,6 @@ public class Boss2 : MonoBehaviour
         {
             if (b[i] != null)
             {
-
                 b[i].GetComponent<BossBullet>().PT2 = true;
             }
         }
@@ -332,7 +336,7 @@ public class Boss2 : MonoBehaviour
             ScaleX = Mathf.Lerp(ScaleX, 0, 0.5f);
             if (ScaleX <= 0.2f)
             {
-                transform.position = new Vector2(MovePos.x,MovePos.y +13);
+                //transform.position = new Vector2(MovePos.x,MovePos.y +13);
                 State = BossState.Nomal;
             }
         }
@@ -346,25 +350,23 @@ public class Boss2 : MonoBehaviour
     }
     void FloorCreate()
     {
-        StartCoroutine(Boader());
+        StartCoroutine(border());
     }
-    IEnumerator Boader()
+    IEnumerator border()
     {
-        
-        GameObject p = GameObject.Find("Player");
-        MovePos = p.transform.position;
+        float x = Random.Range(BoderPos[0].position.x, BoderPos[1].position.x);
+        float y = Random.Range(BoderPos[0].position.y, BoderPos[1].position.y);
 
-        GameObject b = Instantiate(m_BossFloor, new Vector2(MovePos.x,MovePos.y + 4),Quaternion.identity);
-        b.GetComponent<Rigidbody2D>().gravityScale = 1;
+
+        Vector2 RandomVector = new Vector2(x, y);
+        GameObject m_Floor = Instantiate(m_BossFloor, RandomVector, Quaternion.identity);
+        Destroy(m_Floor, 32);
 
         yield return new WaitForSeconds(2);
-
-        b.GetComponent<Rigidbody2D>().gravityScale = 0;
-        b.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-
-        MovePos = b.transform.position;
-        Destroy(b, 33);
-
+        m_Ani.SetTrigger("IsTp");
+        m_Sound.Sound_Boss(1, false, false).Play();
+        yield return new WaitForSeconds(0.2f);
+        transform.position = new Vector2(m_Floor.transform.position.x + 1, m_Floor.transform.position.y + 13);
     }
     public void Death()
     {
@@ -440,12 +442,15 @@ public class Boss2 : MonoBehaviour
     {
         StartCoroutine("WireScopeHit");
     }
+    public float ScopeHP = 5;
     IEnumerator WireScopeHit()
     {
+
         int a = (int)State;
         if (State == BossState.Outburst)
         {
             OutburstCount++;
+            ScopeHP--;
             
         }
         State = BossState.Stern;

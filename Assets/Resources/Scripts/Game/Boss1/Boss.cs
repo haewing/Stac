@@ -26,14 +26,17 @@ public class Boss : MonoBehaviour
         QuaternionZ += Time.deltaTime * 10;
         m_Perent.eulerAngles = new Vector3(0, 0, QuaternionZ);
     }
+    [SerializeField] GameObject m_Cage;
     IEnumerator BossClear()
     {
         while (gameObject != null)
         {
             if (InfoMng.GetIns.BossHP <= 0)
             {
+                GameMng.GetIns.BossClear = true;
+                InfoMng.GetIns.GameClear = true;
                 InfoMng.GetIns.BossHP = 0;
-                GameMng.GetIns.CameraMode = 3;
+                GameMng.GetIns.CameraMode = 3;  
                 yield return new WaitForSeconds(1);
                 m_Ani.gameObject.GetComponent<Animator>().enabled = true;
                 m_Ani.SetTrigger("IsDeath");
@@ -52,6 +55,12 @@ public class Boss : MonoBehaviour
 
                 yield return new WaitForSeconds(2f);
                 GameMng.GetIns.CameraMode = 0;
+
+                m_Cage.GetComponent<Rigidbody2D>().gravityScale = 1;
+                m_Cage.GetComponent<BoxCollider2D>().isTrigger = true ;
+
+
+
                 Destroy(gameObject);
                 break;
             }
@@ -201,7 +210,7 @@ public class Boss : MonoBehaviour
     }
 
 
-    bool IsScopeHit = false;
+    public bool IsScopeHit = false;
     public void StartHit()
     {
         StartCoroutine("WireScopeHit");

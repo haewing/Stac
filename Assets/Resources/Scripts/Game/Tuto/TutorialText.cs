@@ -26,7 +26,7 @@ public class TutorialText : MonoBehaviour
             switch (TextMod)
             {
                 case 0:
-                    m_Text.text = string.Format("<- 'A'  LEFT\n         RIGHT  'D'->");
+                    m_Text.text = string.Format("<- 'A'  왼쪽\n         오른쪽 'D'->");
                     if (m_Player.Tu_IsAxis)
                     {
                         TextMod = 1;
@@ -34,7 +34,7 @@ public class TutorialText : MonoBehaviour
                     }
                     break;
                 case 1:
-                    m_Text.text = string.Format("'Space' : Jump");
+                    m_Text.text = string.Format("'스페이스바' : 점프");
                     if (m_Player.Tu_IsJump)
                     {
                         TextMod = 2;
@@ -43,7 +43,7 @@ public class TutorialText : MonoBehaviour
                     break;
                 case 2:
 
-                    m_Text.text = string.Format("LEFT Click : Att");
+                    m_Text.text = string.Format("좌클릭 : 공격");
                     if (m_Player.Tu_Att)
                     {
                         TextMod = 3;
@@ -52,7 +52,7 @@ public class TutorialText : MonoBehaviour
                     break;
                 case 3:
 
-                    m_Text.text = string.Format("'1' : Melee");
+                    m_Text.text = string.Format("'1' : 근거리모드");
                     if (m_Player.Tu_Melee)
                     {
                         TextMod = 4;
@@ -60,7 +60,7 @@ public class TutorialText : MonoBehaviour
                     }
                     break;
                 case 4:
-                    m_Text.text = string.Format("'2' : Far");
+                    m_Text.text = string.Format("'2' : 원거리모드");
                     if (m_Player.Tu_Far)
                     {
                         TextMod = 5;
@@ -68,7 +68,7 @@ public class TutorialText : MonoBehaviour
                     }
                     break;
                 case 5:
-                    m_Text.text = string.Format("'E' : Skill");
+                    m_Text.text = string.Format("'E' : 스킬");
                     if (m_Player.Tu_IsSkill)
                     {
                         TextMod = 6;

@@ -7,13 +7,13 @@ public class Throw : MonoBehaviour
 {
     public GameObject m_Par;
 
-        [SerializeField] GameObject DmgTxt;
-
+    [SerializeField] GameObject DmgTxt;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Drone")
         {
+
             Destroy(collision.gameObject);
         }
 
